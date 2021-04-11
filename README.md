@@ -20,5 +20,6 @@ The cucumber features goes in the features library and should have the ".feature
 Go to your project directory from terminal and hit following commands
 
 mvn test (defualt will run on local firefox browser)
+
 mvn test "-Dbrowser=chrome" (to use any other browser)
 
